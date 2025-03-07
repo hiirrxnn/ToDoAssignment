@@ -83,5 +83,5 @@ This will create an optimized production build in the `build` folder that can be
 ## Screenshots
 
 ![Login Page](public/screenshots/login.png)
-![Dashboard](pubic/screenshots/dashboard.png)
+![Dashboard](public/screenshots/dashboard.png)
 ![Task List](public/screenshots/tasks.png)
