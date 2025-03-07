@@ -5,7 +5,7 @@ import axios from 'axios';
 export const getWeather = (location = 'Delhi') => async dispatch => {
   try {
     // You would typically use your own API key here
-    const API_KEY = '58ca784660cb687f48f7e9934db828dc';
+    const API_KEY = process.env.REACT_APP_OPENWEATHERMAP_API_KEY;
     const response = await axios.get(
       `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${API_KEY}`
     );

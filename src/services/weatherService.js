@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = process.env.REACT_APP_OPENWEATHERMAP_API_KEY || '58ca784660cb687f48f7e9934db828dc';
+const API_KEY = process.env.REACT_APP_OPENWEATHERMAP_API_KEY || '';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 // Get current weather data by city name
